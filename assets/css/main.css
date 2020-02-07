@@ -2747,7 +2747,11 @@ input, select, textarea {
 			color: #ffffff;
 		}
 
-		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
+		#header h1 {
+			color: #fcfcfc;
+			text-shadow: 3px 3px rgba(0, 0, 0, 0.5) ;
+		}
+		#header h2, #header h3, #header h4, #header h5, #header h6 {
 			color: #ffffff;
 		}
 
@@ -2755,7 +2759,7 @@ input, select, textarea {
 		#header input[type="reset"],
 		#header input[type="button"],
 		#header .button {
-			background: #ffffff;
+			background: rgb(212, 212, 212, 0.9);
 			color: #544d55;
 		}
 
@@ -2786,6 +2790,8 @@ input, select, textarea {
 		#header p {
 			font-size: 1.5em;
 			line-height: 1.5em;
+			color: #ffffff;
+			text-shadow:2px 2px rgba(0, 0, 0, 0.5);
 			/* margin: 0.25em 0 0 0; */
 		}
 
@@ -2799,11 +2805,6 @@ input, select, textarea {
 		background-repeat: repeat-x;
 		background-size: 3200px 460px;
 		color: rgba(255, 255, 255, 0.8);
-		/*
-				Since the SVG background occupies a lot of vertical space, we'll
-				add additional top padding (to move our content out of its way)
-				and a negative margin (to move everything up a bit).
-			*/
 
 		margin-top: -260px;
 		padding: calc(460px + 6em) 0 10em 0;
@@ -3019,7 +3020,7 @@ input, select, textarea {
 
 			#header {
 				background-attachment: scroll,							scroll,							scroll;
-				background-image: url("images/top-1600.svg"), url("images/######.png"), url("../../images/header_1.png");
+				background-image: url("images/top-1600.svg"), url("images/######.png"), url("../../images/header_3.JPG");
 				background-size: 1600px 230px, auto, cover;
 				padding: 6em 0 12em 0;
 				/* filter: grayscale(0.3); */
